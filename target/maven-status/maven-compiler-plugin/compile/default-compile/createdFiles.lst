@@ -1,0 +1,12 @@
+domain/RealEstate.class
+domain/User.class
+controller/recordCtrl.class
+domain/Individual.class
+controller/loginCtrl.class
+controller/searchCtrl.class
+domain/InfoBank.class
+domain/Estate.class
+domain/House.class
+domain/Tools.class
+domain/SearchForm.class
+controller/chargeCtrl.class
