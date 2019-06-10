@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="Home.css">
+		<link rel="stylesheet" href="fontawesome-all.css">
+		<link rel="stylesheet" href="normalize.css">
+		
+	</head>
+
+	<body>
+		
+
+		<div class="dropdown">
+			<div id="header_button_holder"><button type="button" id="header_button" >ناحیه کاربری <i class="far fa-smile"></i></button></div>
+			<div id="dropdown_content" align="center">
+				<br/>
+				<h4 id="DD_firstline">بهنام همایون</h4><br/>
+				<div align="right">اعتبار  &emsp; &emsp; &emsp; &emsp; <span >2000</span>تومان</div><br/><br/>
+				<a href="Account.html"><button type="button" id="charge" >افزایش اعتبار</button></a>
+
+			</div>	
+		</div>
+
+		<div class="slideshow">
+	 		<div class = "slide" id="element0" ></div>
+		  	<div class = "slide" id="element1"></div>
+			<div class = "slide" id="element2"></div>
+			<div class = "slide" id="element3"></div>
+			<div id="logo_holder"><img id = "logo"  src="./img/logo.png" alt="Home logo" align="middle" /></div>
+			<h2  id = "logo_name"> خانه به دوش </h2>
+
+			<div class="container-fluid search_form">
+				<div class="row " >
+					<div class="col-sm-2 col-xs-1" ></div>
+
+					<div class="col-sm-8 col-xs-10 " >
+						<div id = "search_form_id" >
+						<div class="container-fluid" dir="rtl" >
+							<form>
+								<div class="row" >
+									<br />
+									<div class="col-sm-4 col-xs-12" align="middle"><p class="labels" >متر مربع</p><input type="text" name="minArea" placeholder="حداقل متراژ"></div>
+
+									<div class="col-sm-4 col-xs-12" align="middle"><p class="labels" >تومان</p><input type="text" name="maxPrice" placeholder="حداکثر قیمت"></div>
+
+									<div class="col-sm-4 col-xs-12" align="middle"><br/><p></p>
+										<select class="classic" id="HOUSE_TYPE">
+											<option value="" disabled selected hidden [disabled]="true" [selected]="true" hidden="hidden">نوع ملک</option>
+											<option value="آپارتمان">آپارتمان</option>
+											<option value="ویلایی">ویلایی</option>
+										</select>
+									</div>
+
+								</div>
+
+								<br/>
+								<div class="row">
+									
+									<div class="col-sm-7 col-xs-12 sec_row_searchBlock ">
+										<label class="radio-inline radio_button"><input type="radio" name="dealType" value="اجاره" ><span class="checkmark"></span>&emsp; رهن و اجاره</label>&emsp;
+										<label class="radio-inline radio_button"><input type="radio" name="dealType" value="خرید"><span class="checkmark"></span> &emsp; خرید</label>
+									</div>
+
+									<div class="col-sm-5 col-xs-12 sec_row_searchBlock" align="middle"><button type="button" id="submit_button">جستجو</button></div>
+									
+									
+								</div>
+
+								<br/>
+
+							</form>
+						</div>
+					</div>
+					</div>
+					
+					<div class="col-sm-2 col-xs-1" ></div>
+				</div>
+			
+				<br/>
+				<div class="row" >
+					<div class="col-sm-2 col-xs-1 " ></div>
+					<div class="col-sm-8 col-xs-10 ">
+						<div id = "record_block" >صاحب خانه هستید؟ خانه ی خود را ثبت کنید</div>
+					</div>
+					<div class="col-sm-2 col-xs-1 " ></div>
+					
+				</div>
+
+				<br/>
+
+					<div class="row ">
+						<div class="col-sm-2 col-xs-1 " ></div>
+						<div class="col-sm-8 col-xs-10 cards">
+
+
+								<div class="row">
+									<div class="col-sm-4 col-xs-12 " align="center" > 
+										<div id="card_1" align="center"> <img class="box_pic" src="./img/726499.svg" align="center"> 
+											<p class="box_text box_text_part1">گسترده</p><br/><p class="box_text box_text_part2">در منطقه مورد علاقه خود صاحب خانه شوید</p><br/>
+										</div>
+										<br/>
+									</div>
+									
+									<div class="col-sm-4 col-xs-12 " align="center" > 
+										<div id="card_2" align="center"> <img class="box_pic" src="./img/726488.svg" align="center"> 
+											<p class="box_text box_text_part1">مطمئن</p><br/><p class="box_text box_text_part2">با خیال راحت به دنبال خانه بگردید</p><br/>
+										</div> 
+										<br/>
+									</div>
+									
+									<div class="col-sm-4 col-xs-12 " align="center" >
+								   		<div id="card_3" align="center"> <img class="box_pic" src="./img/726446.svg" align="center"> 
+								   			<p class="box_text box_text_part1">آسان</p><br/><p class="box_text box_text_part2">به سادگی صاحب خانه شوید</p><br/>
+								   		</div>
+
+								    </div>
+								</div>
+
+						</div>
+						<div class="col-sm-2 col-xs-1 " ></div>
+					</div>
+
+
+					<div class="row">
+						<div class="col-sm-2 col-xs-1 " ></div>
+						<div class="col-sm-8 col-xs-10 cards">
+							<div class="container-fluid">
+
+								<div class="col-sm-5 col-xs-12" align="middle">
+									<div><img id="why-khanebedoosh_pic" src="./img/why-khanebedoosh.jpg"/></div>
+								</div>
+								<div class="col-sm-7 col-xs-12 " align="right" dir="rtl">
+									<div >
+										<h1 id="why-khane_title">چرا خانه به دوش؟</h1><br/><br/>
+										<ul>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;اطلاعات کامل و صحیح از املاک قابل معامله</li><br/>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;بدون محدودیت، 24 ساعته و در تمام ایام هفته</li><br/>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;جستجوی هوشمند ملک، صرفه جویی در زمان</li><br/>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;تنوع در املاک، افزایش قدرت انتخاب مشتریان</li><br/>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;بانکی جامع از اطلاعات هزاران آگهی به روز</li><br/>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;دستیابی به نتیجه مطلوب در کمترین زمان ممکن</li><br/>
+											<li><i class="fas fa-check-circle why-khane"></i> &nbsp;همکاری با مشاوران متخصص در حوزه املاک</li><br/>
+										</ul>
+									</div>
+								</div>
+
+							</div>	
+						</div>
+						<div class="col-sm-2 col-xs-1 " ></div>
+					</div>
+
+				<br/>
+
+			</div>
+
+			<div id="footer" class="row">
+				<div class="col-sm-12 col-xs-12">
+					<div class="col-xs-1" ></div>
+					<div  class="col-xs-1" align ="center" >
+						<br/>
+						<a href="http://www.instagram.com"><img class="social" id="Instagram" src="./img/Insta.png" /> </a>
+					</div>
+					<div  class="col-xs-1" align ="center" >
+						<br/>
+						<a href="http://www.telegram.me"><img class="social" id="Telegram" src="./img/Tele.png" /> </a>
+					</div>
+					<div  class="col-xs-1" align ="center" >
+						<br/>
+						<a href="http://www.twitter.com"><img class="social" id="twitter" src="./img/Twitter.png" /> </a>
+					</div>
+					<div class="col-xs-1" ></div>
+					
+					<div  class="col-xs-7" align ="center">
+						<br />
+						<p align="center"> کلیه حقوق مادی و معنوی این وب‌سایت متعلق به کوثر پور احمدی و پارسا نورعلی نژاد می باشد </p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+		
+		
+		
+	</body>
+
+</html>
