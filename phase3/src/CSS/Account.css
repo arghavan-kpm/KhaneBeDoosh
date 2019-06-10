@@ -1,0 +1,78 @@
+@font-face{
+	font-family: Shabnam;
+	src: url("../shabnam-font-v3.0.0/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.ttf");
+}
+
+body{
+	font-family: Shabnam;
+}
+
+.Account{
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#adding_area{
+	position: relative;
+	width: 100%;
+	margin-top:200px;
+	padding-bottom: 260px;
+}
+
+#cur_credit{
+	float:right;
+	font-size: 26px;
+	color:gray;
+	display: inline-block;
+	line-height: 150%;
+}
+
+#credit{
+	color:black;
+}
+
+#charge_in_account{
+	min-height: 100px;
+}
+
+#charge_holder{
+	color:gray;
+	position: relative;
+	width: 100%;
+}
+
+#charge_amount{
+	float: none;
+	border-radius: 5px;
+	border-style: solid;
+    border-width: 1px;
+    width: 60%;
+    height: 50px;
+    padding:7px;
+	border-color: gray;
+}
+
+#press_button{
+	width: 60%;
+    height: 50px;
+    border-radius: 5px;
+	border:none;
+	background-color: #3AD2CB;
+	color:white;
+	padding:5px;
+	box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+}
+
+#press_button:hover{
+	box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+
+#press_button:active{
+	box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+}
+
+#Toman{
+	position: relative;
+	left:20%;
+}

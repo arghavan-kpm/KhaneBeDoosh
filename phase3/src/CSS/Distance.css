@@ -1,0 +1,15 @@
+#distance{
+	position: relative;
+	width: 101%;
+	min-height: 250px;
+	background-image: url("../img/geometry2.png");
+	background-repeat: repeat-x;
+	color:#3AD2CB;
+}
+
+
+#title{
+	font-weight: bold;
+	height: 100%;
+
+}

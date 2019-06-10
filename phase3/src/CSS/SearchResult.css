@@ -1,0 +1,109 @@
+@font-face{
+	font-family: Shabnam;
+	src: url("../shabnam-font-v3.0.0/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.ttf");
+}
+
+.SearchResult{
+	font-family: Shabnam;
+	width: 100%;
+	       -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+					padding-left: 0px;
+					padding-right: 0px;
+}
+
+.tip{
+	position: relative;
+	width: 100%;
+	color: gray;
+	font-size: 23px;
+	margin-top: 20px;
+}
+
+
+#search_result{
+	position: relative;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.card{
+	position: relative;
+	border-radius: 7px;
+	min-height: 450px;
+	background-color: white;
+	box-shadow: 0px 2px 40px rgba(0,0,0,0.1);
+}
+
+
+.card:hover{
+	box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+
+.card:active{
+	box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+
+hr{
+	color:black;
+	width: 100%;
+}
+
+
+.box_pic{
+	position: relative;
+	width: 100%;
+	max-height: 300px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+}
+.buy_label{
+
+	background-color: #5B539D;
+	color: white;
+	position: absolute;
+	top:5%;
+	left:5%;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	padding-top: 6px;
+	border-radius: 15px;
+}
+
+.rent_label{
+	background-color: #F45B69;
+	color: white;
+	position: absolute;
+	top:5%;
+	left:5%;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	padding-top: 6px;
+	border-radius: 15px;
+}
+
+.text_for_cards{
+	position: relative;
+	color: #4C4C4C;
+	direction: right;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.rent_color{
+	color: #F45B69;
+}
+.buy_color{
+	color: #5B539D;
+}
+.Toman{
+	color: grey;
+}
+
+a:hover{
+	text-decoration: none;
+}

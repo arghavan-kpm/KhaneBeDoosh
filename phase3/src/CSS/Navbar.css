@@ -1,0 +1,113 @@
+.nav_bar{
+	position: fixed;
+	z-index: 100;
+	min-height:80px;
+	width: 101%;
+	background-color: white;
+	box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+}
+
+#logo_holder{
+	position: relative;
+	clear:none;
+	height: 100%;
+	top:10px;
+	color:#3AD2CB;
+}
+
+
+#logo_link{
+	height: 100%;
+	position: relative;
+	color:#3AD2CB;
+	display: inline-block;
+	width: 100%;
+	top:10px;
+	right:10px;
+	text-decoration: none;
+
+}
+
+#logo{
+}
+
+#name{
+	position: relative;
+	right:10px;
+	display: inline;
+	top:5px;
+	font-weight: bold;
+}
+
+#user_area{
+	height: 100%;
+	position: relative;
+	color:rgb(64,51,138);
+	height: 110%;
+	z-index: 1;
+
+	font-size: 100%;
+}
+
+#user_area_text{
+	top:0px;
+	position: relative;
+	width: 50%;
+	display: block;
+	height: 100%;
+}
+
+#user_info{
+	background-color: white;
+	position: absolute;
+	z-index: 101;
+	width: 55%;
+	height: 245%;
+	top:100%;
+	right:25%;
+	box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: none;
+	font-size: 90%;
+	z-index: 101;
+}
+
+#user_area:hover{
+	cursor: pointer;
+}
+
+#user_area_text:hover ~ #user_info ,#user_info:hover {
+	display: block;
+	font-size: 100%;
+	cursor: pointer;
+}
+#user_name{
+	color:#4C4C4C;
+	position: relative;
+	right:15px;
+}
+
+#cur_credit_text_user_area{
+	color:gray;
+	position: relative;
+	right:15px;
+}
+#charge_button{
+	position:relative;
+	width: 70%;
+	height: 20%;
+	margin-top: 7%;
+	background-color: #3AD2CB;
+	border-radius: 5px;
+	color:white;
+	border-style: none;
+	box-shadow: 0px 2px 80px rgba(0, 0, 0, 0.1);
+}
+#charge_button:hover{
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+#charge_button:click{
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+}

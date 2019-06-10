@@ -1,0 +1,73 @@
+.MoreInfo{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#Body{
+  position:relative;
+  padding-bottom: 8%;
+}
+
+#PayForPhone{
+	position:relative;
+	width: 70%;
+	height: 50px;
+	background-color: #3AD2CB;
+	border-radius: 5px;
+	color:white;
+	border-style: none;
+	box-shadow: 0px 2px 80px rgba(0, 0, 0, 0.1);
+}
+#PayForPhone:hover{
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+#PayForPhone:click{
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+}
+
+#image{
+  border-radius: 7px;
+  position:relative;
+  width:70%;
+  min-height:30px;
+}
+
+.buyLabel{
+
+	background-color: #5B539D;
+	color: white;
+	position: relative;
+	top:5%;
+  left:85%;
+	width: 80px;
+	height:40px;
+	text-align: center;
+	padding-top: 6px;
+	border-radius: 5px;
+}
+
+.rentLabel{
+	background-color: #F45B69;
+	color: white;
+	position: relative;
+	top:5%;
+	left:85%;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	padding-top: 6px;
+	border-radius: 5px;
+}
+
+span.right{
+  color: grey;
+}
+
+span.left{
+  color: black;
+}
+
+#info{
+  position: relative;
+  top: 100px;
+}

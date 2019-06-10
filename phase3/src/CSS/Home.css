@@ -1,0 +1,288 @@
+@font-face{
+	font-family: Shabnam;
+	src: url("../shabnam-font-v3.0.0/Farsi-Digits-Without-Latin/Shabnam-FD-WOL.ttf ");
+}
+
+:root{
+	--slide_pos: absolute;
+}
+
+.App{
+	width: 100%;
+	min-height: 100%;
+	font-family:  Shabnam;
+	margin-left: 0px;
+	margin-right:0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.slideshow {
+  position: var(--slide_pos);
+  width: 100%;
+  height: 100%;
+	top:-35%;
+  left:-8px;
+
+}
+
+.slide{
+	position: var(--slide_pos);
+  width: 101%;
+  height: 100%;
+}
+
+#logo{
+  position: relative;
+  width: 90px;
+  height: 90px;
+  top: 30px;
+  left: 50%;
+  margin-left: -45px;
+  justify-content: center;
+}
+
+#logo_name{
+  color: white;
+  text-align: center;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+
+#logo_holder{
+  position: relative;
+  width: 90px;
+  height: 90px;
+  top: 41%;
+  left: 50%;
+  margin-left: -45px;
+  justify-content: center;
+}
+#element0 {
+  background: url('../img/elem1.jpg')no-repeat center;
+      background-size:100% 100%;
+    animation:fade1 16s infinite;
+-webkit-animation:fade1 16s infinite;
+
+}
+#element1 {
+  background: url('../img/elem2.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade2 16s infinite;
+-webkit-animation:fade2 16s infinite;
+}
+#element2 {
+    background: url('../img/elem3.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade3 16s infinite;
+-webkit-animation:fade3 16s infinite;
+}
+#element3 {
+    background: url('../img/elem4.jpg')no-repeat center;
+      background-size: 100% 100%;
+    animation:fade4 16s infinite;
+-webkit-animation:fade4 16s infinite;
+}
+@keyframes fade1
+{
+  0%   {opacity:1}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% {opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  25% { opacity: 1}
+  50% { opacity: 0 }
+  75% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 1}
+  75% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade4
+{
+  0%   {opacity:0}
+  25% { opacity: 0}
+  50% { opacity: 0}
+  75% { opacity: 1}
+  100% { opacity: 0}
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+  top: 5%;
+  left:5%;
+}
+#header_button{
+	border :2px solid;
+	color: white;
+	border-color: white;
+  background: transparent;
+	border-radius: 6px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+  font-size: 20px;
+	width: 150px;
+	height: 50px;
+
+}
+
+#header_button_holder{
+  color: white;
+  background: transparent;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  top:10px;
+}
+
+#dropdown_content{
+  display: none;
+  position: absolute;
+  color: gray;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+#DD_firstline{
+  text-align: right;
+  color: #4C4C4C;
+}
+
+#header_button:hover{
+  display: block;
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.5);
+  transition: 0.5s;
+
+}
+.dropdown:hover #dropdown_content{
+  display: block;
+  cursor: pointer;
+  background-color: white;
+
+}
+
+#charge{
+  background-color: #3AD2CB;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  width: 90%;
+  height: 40px;
+  text-align: center;
+  box-shadow: 0px 2px 80px rgba(0, 0, 0, 0.1);
+}
+#charge:hover{
+  box-shadow: 0px 10px 40px rgba(0,0,0,0.2);
+}
+#charge:click{
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.15);
+}
+
+#cards_all{
+	position: relative;
+	top:0px;
+}
+
+.cards{
+  position: relative;
+  border-radius: 6px;
+  color: black;
+  text-align: center;
+	display: inline-block;
+
+}
+#card_1{
+  position: relative;
+  border-radius: 6px;
+  width: 100%;
+  padding-top: 5%;
+  background-color: white;
+  box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+  min-height: 250px;
+}
+#card_2{
+  position: relative;
+  border-radius: 6px;
+  width: 100%;
+  align-content: middle;
+  padding-top: 5%;
+  background-color: white;
+  box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+  min-height: 250px;
+}
+#card_3{
+  position: relative;
+  border-radius: 6px;
+  width: 100%;
+  padding-top: 5%;
+  background-color: white;
+  box-shadow: 0px 2px 80px rgba(0,0,0,0.1);
+  min-height: 250px;
+}
+
+.box_pic_in_app{
+  width: 30%;
+  height: 30%;
+
+}
+
+.box_text{
+  position: relative;
+  color: #4C4C4C;
+  text-align: center;
+}
+.box_text_part1{
+  position: relative;
+  font-size: 25px;
+}
+.box_text_part2{
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+#why-khane-all{
+	position: relative;
+}
+
+#why-khanebedoosh_pic{
+  position: relative;
+  width: 100%;
+  height: 100%;
+	margin-top: 20%;
+}
+#why-khane_title{
+  color: #4C4C4C;
+  font-weight: bold;
+  margin-top:10%;
+}
+.why-khane{
+  color: #52489C;
+}
+
+ul{
+  list-style-type: none;
+}
